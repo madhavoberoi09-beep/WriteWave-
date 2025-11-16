@@ -1,0 +1,195 @@
+Create a complete full-stack project named WriteWave – A Modern Blogging Platform.
+Tech stack: ASP.NET Core 8 Web API (backend), Entity Framework Core, SQL Server database, React + Vite + TailwindCSS (frontend).
+
+🔥 Project Requirements
+1. Backend (ASP.NET Core 8 Web API)
+
+Build a production-ready backend with:
+
+Clean Architecture
+
+Repository + Service Layer Pattern
+
+DTOs, Models, AutoMapper
+
+EF Core + Code First Migrations
+
+SQL Server (local or connection string config)
+
+JWT Authentication + Role-based access:
+
+Admin
+
+Author
+
+User
+
+Authentication endpoints: register, login, refresh token
+
+Controllers:
+
+AuthController
+
+BlogController
+
+CategoryController
+
+CommentController
+
+UserController
+
+Features:
+
+Create/Edit/Delete Blog
+
+Draft vs Publish
+
+Upload cover image (local folder or Cloudinary)
+
+Blog slug generation
+
+Trending blogs
+
+Pagination + Search + Filters
+
+Comments + nested replies
+
+Like/Unlike blog
+
+Global Exception Middleware
+
+Response Wrapper
+
+Swagger Documentation
+
+Proper folder structure
+
+/API  
+/Application  
+/Core  
+/Infrastructure  
+
+2. Frontend (React + Vite + TailwindCSS + Shadcn UI)
+
+Create a beautiful, modern, responsive UI with:
+
+Homepage
+
+Recent posts
+
+Trending section
+
+Category filter
+
+Search bar
+
+Blog page
+
+Cover image
+
+Author info
+
+Like button
+
+Comments section (nested comments)
+
+Related blogs
+
+Dashboard for Authors
+
+Create blog
+
+Edit blog
+
+Delete blog
+
+Rich Text Editor
+
+TipTap or React Quill
+
+Dashboard for Admin
+
+Approve / Reject blogs
+
+Manage users
+
+User Profile page
+
+User details
+
+User’s blogs
+
+Login / Register pages
+
+Modern components using:
+
+TailwindCSS
+
+Shadcn UI
+
+Framer Motion animations
+
+Fully responsive (mobile/tablet/desktop)
+
+Frontend Pages
+/home
+/blog/:slug
+/login
+/register
+/profile/:id
+/dashboard/author
+/dashboard/admin
+/create
+/edit/:id
+
+Frontend Integration
+
+Axios instance with JWT auth
+
+Protected routes
+
+Token refresh flow
+
+Toast notifications (react-hot-toast)
+
+Loading states
+
+Error handling
+
+3. Full-Stack Integration
+
+Connect React frontend to ASP.NET Core API
+
+Add .env configs for API base URL
+
+Create services for:
+
+Auth
+
+Blogs
+
+Comments
+
+Users
+
+Ensure complete working CRUD
+
+4. Deliverables
+
+Generate:
+
+Complete backend source code
+
+Complete frontend source code
+
+Database schema + migrations
+
+Readme with setup instructions
+
+Beautiful UI with consistent styling
+
+Clean architecture and maintainable code
+
+Design Goal
+
+Make WriteWave look like a modern Medium-style blogging platform with stunning UI, smooth animations, and clean typog
