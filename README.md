@@ -53,7 +53,7 @@ Build command:
 npm run build
 
 
-#Publish directory:
+# Publish directory:
 
 dist/public
 
