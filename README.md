@@ -1,13 +1,13 @@
-#📝 WriteWave
+# 📝 WriteWave
 
 A modern, elegant blogging platform built with React, Vite, TailwindCSS, and TypeScript — designed for seamless reading, writing, and publishing.
 
-#🚀 Live Demo
+# 🚀 Live Demo
 
 🔗 Live Website:
 https://profound-rugelach-29fe0f.netlify.app/
 
-#📌 Features
+# 📌 Features
 
 ✔️ Beautiful, modern UI
 ✔️ Homepage with featured blog posts
